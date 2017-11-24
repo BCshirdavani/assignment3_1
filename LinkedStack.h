@@ -30,6 +30,7 @@ public:
 	bool isEmpty();
 	void push(T&);
 	T pop();
+	// T sTop();
 	template <class U>
 	friend ostream& operator<<(ostream& os, LinkedStack<U>& lStack);
 	T seeTop();
@@ -96,7 +97,9 @@ T LinkedStack<T>::seeTop(){
 	} 
 }
 
-
+//****************************************************
+//										ssTop()
+// not sure if I need this function...
 
 
 
